@@ -1,6 +1,6 @@
 # Duplicate Product Image Cleaner for PrestaShop
 
-This PHP script scans all product images in a PrestaShop installation, detects duplicates based on file content (MD5 hash), and allows you to delete them individually or all at once.
+This PHP script scans all product images in a PrestaShop installation, detects duplicates based on file content (MD5 hash), and allows you to delete them individually or all at once. Tested on prestahop 8.2.
 
 ---
 
