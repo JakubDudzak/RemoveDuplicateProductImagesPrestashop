@@ -143,7 +143,7 @@ foreach ($products as $product) {
             $table_rows .= '<td>' . $id_product . '</td>';
             $table_rows .= '<td>' . $id_image . '</td>';
             $table_rows .= '<td>ID ' . $duplicate_of . ($mode === 'visual' ? " (visual)" : " (exact)") . '</td>';
-            $table_rows .= '<td><a href="' . htmlspecialchars($frontLink) . '" target="_blank">?? View Product</a></td>';
+            $table_rows .= '<td><a href="' . htmlspecialchars($frontLink) . '" target="_blank">View Product</a></td>';
             $table_rows .= '<td><a href="?delete_id=' . $id_image . '&mode=' . $mode . '" onclick="return confirm(\'Delete this duplicate?\');">Delete</a></td>';
             $table_rows .= '</tr>';
 
@@ -158,7 +158,7 @@ foreach ($products as $product) {
 if (count($duplicate_ids) > 0) {
     echo '<form method="POST" action="?delete_all=1&mode=' . $mode . '" onsubmit="return confirm(\'Are you sure you want to delete all ' . count($duplicate_ids) . ' duplicate images?\');">';
     echo '<input type="hidden" name="all_ids" value="' . implode(',', $duplicate_ids) . '">';
-    echo '<button type="submit" style="margin:10px 0; background-color:#c00; color:white; padding:6px 12px; border:none; border-radius:4px; cursor:pointer;">?? Delete All (' . count($duplicate_ids) . ')</button>';
+    echo '<button type="submit" style="margin:10px 0; background-color:#c00; color:white; padding:6px 12px; border:none; border-radius:4px; cursor:pointer;">Delete All (' . count($duplicate_ids) . ')</button>';
     echo '</form>';
 
     echo '<table border="1" style="border-collapse: collapse; margin-top:10px;">
