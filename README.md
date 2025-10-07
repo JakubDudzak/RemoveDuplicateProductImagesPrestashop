@@ -26,4 +26,6 @@ This PHP script scans all product images in a PrestaShop installation, detects d
 ## 📂 Installation
 
 1. Place the script file (e.g. `duplicate_image_cleaner.php`) into your PrestaShop root directory or somewhere else
-2. Remove afterwards for safety
+2. Make sure to backup before trying, I do not take any responsibility
+3. Run URL/(directory)/duplicates.php , if it is in root just run URL/duplicates.php
+4. Remove afterwards for safety
