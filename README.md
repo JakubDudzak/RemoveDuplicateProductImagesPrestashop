@@ -78,7 +78,3 @@ Tested on **PrestaShop 8.2**.
 https://yourshop.com/duplicate_image_cleaner.php?mode=exact
 https://yourshop.com/duplicate_image_cleaner.php?mode=visual
 ```
-
----
-
-Would you like me to make a Slovak version of this README as well (napr. `README_SK.md`)?
